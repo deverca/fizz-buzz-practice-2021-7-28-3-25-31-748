@@ -3,7 +3,7 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countOff(int number) {
-        if(number==3*5||number==3*7||number==5*7){
+        if((number%3==0 && number%5==0)||(number%3==0 && number%7==0) ||(number%7==0 && number%5==0)){
             return "FizzBuzz";
         }
         if (number % 3 == 0) {
