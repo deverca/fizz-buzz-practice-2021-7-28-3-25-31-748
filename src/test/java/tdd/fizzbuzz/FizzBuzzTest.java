@@ -58,11 +58,11 @@ public class FizzBuzzTest {
     @Test
     void should_return_FizzBuzzWhizz_when_count_off_given_multiple_by_three_special_order_numbers() {
         //given
-        int orderNumber = 45;
+        int orderNumber = 105;
         //when
         String result = fizzBuzz.countOff(orderNumber);
         //then
-        assertThat(result).isEqualTo("FizzBuzz");
+        assertThat(result).isEqualTo("FizzBuzzWhizz");
     }
 
 
