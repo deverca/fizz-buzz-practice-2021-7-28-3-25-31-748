@@ -26,4 +26,10 @@ public class FizzBuzzTest {
         String result = fizzBuzz.countOff(orderNumber);
         assertThat(result).isEqualTo("Buzz");
     }
+    @Test
+    void should_return_Fizz_when_count_off_given_multiple_by_seven_order_number(){
+        int orderNumber = 10;
+        String result = fizzBuzz.countOff(orderNumber);
+        assertThat(result).isEqualTo("Whizz");
+    }
 }
