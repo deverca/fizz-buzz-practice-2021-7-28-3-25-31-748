@@ -15,7 +15,7 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_Fizz_when_count_off_given_multiple_by_three_order_number(){
-        int orderNumber = 3;
+        int orderNumber = 9;
         String result = fizzBuzz.countOff(orderNumber);
         assertThat(result).isEqualTo("Fizz");
     }
