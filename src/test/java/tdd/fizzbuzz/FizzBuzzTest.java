@@ -49,10 +49,12 @@ public class FizzBuzzTest {
     @Test
     void should_return_FizzBuzz_when_count_off_given_multiple_by_two_special_order_numbers() {
         //given
-        int orderNumber = 15;
+        int orderNumber = 21;
         //when
         String result = fizzBuzz.countOff(orderNumber);
         //then
         assertThat(result).isEqualTo("FizzBuzz");
     }
+
+
 }
